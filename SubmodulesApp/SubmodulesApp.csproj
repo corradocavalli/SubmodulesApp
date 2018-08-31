@@ -131,6 +131,12 @@
       <Version>6.1.7</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MyAwesomeLib\SubModulesLib\SubModulesLib.csproj">
+      <Project>{36d31e3e-c610-40ff-99fa-bb555d43596d}</Project>
+      <Name>SubModulesLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
