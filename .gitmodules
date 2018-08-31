@@ -1,3 +1,6 @@
 [submodule "MyAwesomeLib"]
 	path = MyAwesomeLib
 	url = https://github.com/corradocavalli/SubModulesLib.git
+[submodule "SubmodulesApp/MyAwesomeLib"]
+	path = SubmodulesApp/MyAwesomeLib
+	url = https://github.com/corradocavalli/SubModulesLib
