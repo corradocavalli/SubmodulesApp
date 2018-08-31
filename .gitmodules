@@ -1,0 +1,3 @@
+[submodule "MyAwesomeLib"]
+	path = MyAwesomeLib
+	url = https://github.com/corradocavalli/SubModulesLib.git
